@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+    <com.applikabletech.uniappv2library.UniTextView
+            android:id="@+id/ActionbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="تفاصيل الخبر"/>
+
+
+</RelativeLayout>

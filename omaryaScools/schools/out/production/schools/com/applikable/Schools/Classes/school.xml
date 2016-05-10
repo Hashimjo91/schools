@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSchedualCourseObj xmlns="http://tempuri.org/">
+    <SchedualCourseObj>
+        <SchedualCourseId>24</SchedualCourseId>
+        <ClassId>85</ClassId>
+        <SectionId>79</SectionId>
+        <GenderId>1</GenderId>
+        <DateFrom>03/01/2015</DateFrom>
+        <DateTo>03/05/2015</DateTo>
+        <GenderName>ذكر</GenderName>
+        <ClassName>الرابع</ClassName>
+        <SectionName>أ</SectionName>
+        <GeneralNote>test test</GeneralNote>
+        <StudyPlan>&lt;table class="center" border="2" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Days&lt;/td&gt;&lt;td&gt;Subject&lt;/td&gt;&lt;td&gt;Notes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sunday&lt;/td&gt;&lt;td&gt;class
+            compostion pupils book,page 71&lt;/td&gt;&lt;td&gt;-----------------------------&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Monday&lt;/td&gt;&lt;td&gt;Workbook
+            page 57&lt;/td&gt;&lt;td&gt;dictation:I saw two awful monster with claws on thier paws&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tuseday&lt;/td&gt;&lt;td&gt;Workbook
+            page 58+59&lt;/td&gt;&lt;td&gt; Home work- Workbook page 60&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wendesday&lt;/td&gt;&lt;td&gt;reading
+            test-puipls book,page 65(the dragonfly)&lt;/td&gt;&lt;td&gt;Home work- Workbook page 61&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thursday&lt;/td&gt;&lt;td&gt;unit
+            7 - introduction&lt;/td&gt;&lt;td&gt;---------------------&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Notes&lt;/td&gt;&lt;td&gt; --------------&lt;/td&gt;&lt;td&gt;بدء
+            تسميع spelling bee&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</StudyPlan>
+        <SundaySchedual>
+            <Session1>اجتماعيات</Session1>
+            <Session2>رياضيات</Session2>
+            <Session3>عربي</Session3>
+            <Session4>دين</Session4>
+            <Session5>علوم</Session5>
+            <Session6>English</Session6>
+            <Session7>English</Session7>
+            <Session8>فن</Session8>
+            <Note1>متابعة التوزع السكاني</Note1>
+            <Note2>المستقيمات المتوازية</Note2>
+            <Note3>المعجم+الاستيعاب</Note3>
+            <Note4>الجنه</Note4>
+            <Note5>أنواع المغانط</Note5>
+            <Note6>مرفقه مع الخطة</Note6>
+            <Note7>مرفقه مع الخطة</Note7>
+            <Note8>صوف/مقص</Note8>
+        </SundaySchedual>
+        <MondaySchedual>
+            <Session1>رياضيات</Session1>
+            <Session2>عربي</Session2>
+            <Session3>English</Session3>
+            <Session4>علوم</Session4>
+            <Session5>عربي</Session5>
+            <Session6>English</Session6>
+            <Session7>مهني</Session7>
+            <Session8>مهني</Session8>
+            <Note1>المستقيمات المتوازية</Note1>
+            <Note2>الأنماط والتراكيب</Note2>
+            <Note3>مرفقه مع الخطة</Note3>
+            <Note4>اختراق قوة المغناطيس للمواد</Note4>
+            <Note5>استكمال الانماط</Note5>
+            <Note6>مرفقه مع الخطة</Note6>
+            <Note7>الغطاء النباتي</Note7>
+            <Note8>الغطاء النباتي</Note8>
+        </MondaySchedual>
+        <TuesdaySchedual>
+            <Session1>رياضيات</Session1>
+            <Session2>عربي</Session2>
+            <Session3>دين</Session3>
+            <Session4>AC</Session4>
+            <Session5>English</Session5>
+            <Session6>رياضه</Session6>
+            <Session7>رياضه</Session7>
+            <Session8>عربي</Session8>
+            <Note1>الأشكال الرباعية</Note1>
+            <Note2>الكتابة + الرسم الإملائي</Note2>
+            <Note3>النار</Note3>
+            <Note4>إحضار الكتاب والسوروبون</Note4>
+            <Note5>مرفقه مع الخطة</Note5>
+            <Note6/>
+            <Note7/>
+            <Note8>الاستماع</Note8>
+        </TuesdaySchedual>
+        <WednesdaySchedual>
+            <Session1>عربي</Session1>
+            <Session2>علوم</Session2>
+            <Session3>رياضيات</Session3>
+            <Session4>نشاط</Session4>
+            <Session5>تلاوة</Session5>
+            <Session6>English</Session6>
+            <Session7>دين</Session7>
+            <Session8>عربي</Session8>
+            <Note1>إملاء ص 32</Note1>
+            <Note2>قطبا المغناطيس</Note2>
+            <Note3>الأشكال الارباعية</Note3>
+            <Note4/>
+            <Note5>سورة محمد1-8</Note5>
+            <Note6>مرفقه مع الخطة</Note6>
+            <Note7>تلاوة</Note7>
+            <Note8>المحفوظات ص 33</Note8>
+        </WednesdaySchedual>
+        <ThursdaySchedual>
+            <Session1>رياضيات</Session1>
+            <Session2>قيم</Session2>
+            <Session3>علوم</Session3>
+            <Session4>اجتماعيات</Session4>
+            <Session5>عربي</Session5>
+            <Session6>حاسوب</Session6>
+            <Session7>English</Session7>
+            <Session8>عربي</Session8>
+            <Note1>ورقة عمل</Note1>
+            <Note2/>
+            <Note3>قطبا المغناطيس</Note3>
+            <Note4>test</Note4>
+            <Note5>تسميع الدرس +المحفوظات</Note5>
+            <Note6>test</Note6>
+            <Note7>مرفقه مع الخطة</Note7>
+            <Note8>استكمال التسميع</Note8>
+        </ThursdaySchedual>
+    </SchedualCourseObj>
+</ArrayOfSchedualCourseObj>

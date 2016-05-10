@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الصف"
+            android:id="@+id/className"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="68dp"
+            style="@android:style/TextAppearance.Medium"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الشعبة"
+            android:layout_marginRight="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@+id/className"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/classnameSpinner"
+            android:layout_marginTop="86dp"
+            style="@android:style/TextAppearance.Medium"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الجنس"
+            android:layout_marginRight="16dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/className"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/SectionNameSpinner"
+            android:layout_marginTop="86dp"
+            style="@android:style/TextAppearance.Medium"/>
+
+    <Spinner
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:entries="@array/classname"
+            android:id="@+id/classnameSpinner"
+            android:layout_toLeftOf="@+id/className"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"/>
+    <Spinner
+            android:layout_width="250dp"
+            android:entries="@array/section"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/className"
+
+            android:id="@+id/SectionNameSpinner"
+            android:layout_below="@+id/classnameSpinner"
+
+            android:layout_marginTop="70dp"
+            />
+    <Spinner
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:entries="@array/gender"
+            android:id="@+id/GenderSpinner"
+            android:layout_below="@+id/SectionNameSpinner"
+            android:layout_toLeftOf="@+id/className"
+
+            android:layout_marginTop="70dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:background="@drawable/rounded_button"
+
+            android:id="@+id/Confirm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"/>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_margin="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="35dp"
+              android:layout_weight="0.4"
+              android:layout_marginBottom="5dp"
+              android:text="_"
+              android:id="@+id/del"
+              android:layout_marginRight="10dp"
+              android:textColor="@android:color/holo_red_dark"
+              android:textStyle="bold"
+              android:textSize="20dp"
+              android:gravity="center"
+            />
+    <Spinner android:layout_width="fill_parent"
+             android:layout_height="35dp"
+             android:layout_weight="0.3"
+             android:gravity="center"
+             android:id="@+id/Sclass"
+             android:layout_marginRight="10dp"
+             android:entries="@array/classname"
+             android:layout_marginBottom="5dp"
+             android:background="@drawable/text_box"
+            />
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="35dp"
+              android:layout_weight="0.2"
+              android:layout_marginBottom="5dp"
+              android:gravity="center"
+              android:id="@+id/stName"
+              android:background="@drawable/text_box"
+            />
+
+
+
+</LinearLayout>

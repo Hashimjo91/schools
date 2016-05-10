@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:id="@+id/haha"
+                android:background="@drawable/border1"
+        >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="يوم:"
+            android:id="@+id/days"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingRight="10dp"
+            android:text="days"
+            android:id="@+id/day"
+            android:layout_toLeftOf="@id/days"
+            android:gravity="right"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="00/00/0000"
+            android:id="@+id/date"
+            android:layout_alignParentLeft="true"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+
+            android:paddingLeft="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="التاريخ:"
+            android:id="@+id/dates"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/date"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="اسم المادة:"
+            android:paddingTop="10dp"
+            android:id="@+id/courses"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/day"
+            android:gravity="right"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="10dp"
+            android:text="eeeeeee"
+            android:paddingRight="10dp"
+            android:id="@+id/course"
+
+            android:layout_below="@id/dates"
+            android:layout_toLeftOf="@id/courses"
+            android:gravity="right"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="10dp"
+            android:text="المادة المطلوبة:"
+            android:id="@+id/matts"
+            android:layout_below="@+id/courses"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Large Text"
+            android:id="@+id/matt"
+            android:layout_below="@+id/course"
+            android:layout_toLeftOf="@id/matts"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:gravity="right"/>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.hashim.school.sched"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:background="@drawable/rounded_button"
+
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="StudyPlan"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:id="@+id/StudyPlan"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+
+                android:text="ملاحظات عامة"
+                android:id="@+id/genInfo"/>
+    </LinearLayout>
+    <TabHost
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/mytabhostSched"
+
+            android:layout_alignParentTop="true">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal|top"></LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

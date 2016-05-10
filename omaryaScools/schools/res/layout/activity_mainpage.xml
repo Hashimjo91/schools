@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                tools:context="com.example.hashim.school.mainpage"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:background="#5E6F13">
+
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/linearLayout"
+            android:layout_height="wrap_content"
+            android:background="#5E6F13"
+            >
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+
+                android:id="@+id/imageView3"
+                android:background="@drawable/aaa" android:contentDescription="@string/app_name"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:id="@+id/NotificationCounter"
+                  android:visibility="gone"
+                  android:gravity="center"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="5dp"
+                  android:layout_marginTop="5dp"
+                  android:elevation="3dp"
+                  android:background="@drawable/circle"
+
+            >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/NumOfNotification"
+                  android:text="00"
+                  android:textSize="18dp"
+                  android:layout_gravity="center"
+                  android:textColor="@android:color/white"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_below="@+id/linearLayout"
+                  android:layout_height="match_parent"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/linearLayout2"
+                  android:layout_marginBottom="30dp" android:background="@android:color/background_light"
+
+            >
+        <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/gridView"
+                android:numColumns="3"
+
+
+                android:choiceMode="singleChoice"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/Register"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="5dp"
+              android:layout_centerHorizontal="true"
+              android:visibility="visible"
+              android:gravity="center_horizontal"
+              android:textSize="15dp"
+              android:textStyle="bold"
+              android:id="@+id/activationText"
+              android:textColor="@android:color/primary_text_dark"
+
+            />
+
+</RelativeLayout>

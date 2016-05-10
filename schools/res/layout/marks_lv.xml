@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:layout_gravity="right"
+                  android:id="@+id/coursename"
+                  android:layout_marginBottom="10dp"
+                  android:layout_marginTop="10dp"
+                  android:text="course"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="التقييم النهائي"
+                android:id="@+id/textViewL"
+                android:gravity="center"
+                />
+
+
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="التقييم الرابع"
+                android:id="@+id/textViewR1"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="التقييم الثالث"
+                android:id="@+id/textViewR2"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="التقييم الثاني"
+                android:id="@+id/textViewR3"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="التقييم الاول"
+                android:id="@+id/textViewR4"
+                android:gravity="center"
+                />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="Large Text"
+                android:id="@+id/finalex"
+                android:gravity="center"
+                />
+
+
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="Large Text"
+                android:id="@+id/fourth"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="Large Text"
+                android:id="@+id/third"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="Large Text"
+                android:id="@+id/second"
+                android:gravity="center"
+                />
+        <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="Large Text"
+                android:id="@+id/firstEx"
+                android:gravity="center"
+                />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
